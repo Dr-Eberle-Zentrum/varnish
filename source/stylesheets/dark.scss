@@ -385,10 +385,12 @@ $color-mode-type: data;
   }
 
   .progress {
-    background: tint-color($dark-blue, 10%);
+    /* background: tint-color($dark-blue, 10%); */
+    background: #641221;
   }
   .progress-bar {
-    background: shade-color($blue, 20%);
+    /* background: shade-color($blue, 20%); */
+    background: #7a1629;
   }
   .progress.library {
     background: tint-color($red, 20%);
@@ -451,12 +453,14 @@ $color-mode-type: data;
     .top-nav hr{
       color: var(--bs-body-color);
     }
+    /* DISABLED by Martin
     .top-nav {
       border-top: 22px solid shade-color($blue, 20%);
       .peer-reviewed {
         border-color: shade-color($blue, 20%);
       }
     }
+    */
     .top-nav.data {
       border-top: 22px solid shade-color($light-green, 20%);
       .peer-reviewed {

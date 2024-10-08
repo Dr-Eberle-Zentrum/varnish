@@ -51,14 +51,16 @@
 }
 
 .progress {
-  background: $very-light-blue;
+  /*background: $very-light-blue;*/
+  background: #852032;
   border-radius: 20px;
   margin: 10px;
   height: 5px;
 }
 
 .progress-bar {
-  background: $dark-blue;
+  /*background: $dark-blue;*/
+  background: #a82a41;
   border-radius: 20px;
   height:5px;
 }
