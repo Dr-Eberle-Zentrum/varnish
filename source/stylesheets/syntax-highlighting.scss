@@ -30,7 +30,6 @@ code a:any-link {
 
 pre code a:any-link {
   color: inherit;
-  background-color: inherit;
 }
 
 /* don't display links in code chunks when printing */
@@ -49,6 +48,7 @@ a.sourceLine:hover {
 /* arrow-light theme */
 
 pre {background-color: #f1f3f5;}
+pre code {background-color: inherit;}
 pre code span.al /* Alert          */ {color:#AD0000}
 pre code span.an /* Annotation     */ {color:#5E5E5E}
 pre code span.at /* Attribute      */ {}
